@@ -5,6 +5,8 @@
 今回はRNNでおなじみのLSTMを使って明日のソニーの終値を予測するモデルを作ってみました
 実装環境はgoogle colabを使いました
 
+#### 株価データを取得する
+
 `import pandas_datareader as web`<br>
 `com = 6758 #ソニー銘柄コード`
 `web.DataReader([str(com) + '.JP'], 'stooq')`<br>
@@ -19,6 +21,6 @@
 
 株価データの内、直近228日分の終値をテスト用データ、それ以前の912日分の終値を訓練用データにする
 
-LSTMモデルを作成
+#### LSTMモデルを作成
 
 <img src="https://uploda3.ysklog.net/5de30f0fdd11acf5e317680dc9497aff.png" width="300px">
