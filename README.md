@@ -1,1 +1,2 @@
-# Stock-price-prediction
+# ソニーの株価変動を予測してみた！
+
