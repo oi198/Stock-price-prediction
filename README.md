@@ -41,7 +41,7 @@
 
 予測結果と実際の値を比較
 
-<img src="https://uploda3.ysklog.net/46277b378094c5078e09816c12159464.png" width="300px">
+<img src="https://uploda3.ysklog.net/46277b378094c5078e09816c12159464.png" width="500px">
 
 ぱっと見高精度な予測ができているように見えます<br>
 
