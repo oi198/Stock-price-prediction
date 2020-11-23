@@ -21,8 +21,12 @@
 
 株価データの内、直近228日分の終値をテスト用データ、それ以前の912日分の終値を訓練用データにする
 
-#### LSTMモデルを作成
+#### LSTMモデルを作成・学習させる
 
 以下のようなモデルを作成
 
 <img src="https://uploda3.ysklog.net/5de30f0fdd11acf5e317680dc9497aff.png" width="300px">
+
+#### 予測結果と実際の値を比較
+
+<img src="https://uploda3.ysklog.net/46277b378094c5078e09816c12159464.png" width="300px">
