@@ -9,9 +9,11 @@
 
 #### 株価データを取得する
 
-`import pandas_datareader as web`<br>
-`com = 6758 #ソニー銘柄コード`<br>
-`web.DataReader([str(com) + '.JP'], 'stooq')`<br>
+```
+import pandas_datareader as web
+com = 6758 #ソニー銘柄コード
+web.DataReader([str(com) + '.JP'], 'stooq')
+```
 
 上記のコードで銘柄コードに対する企業の過去5年間の終値、高値、安値、始値、出来高を取得できます。
 
