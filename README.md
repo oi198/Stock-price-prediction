@@ -46,15 +46,13 @@ model.compile(
 model.summary()
 ```
 <図3 : モデル作成コード><br>
-<br>
-
 
 <img src="https://uploda3.ysklog.net/5de30f0fdd11acf5e317680dc9497aff.png" width="300px">
-<図4 : モデルの詳細>
+<図4 : モデルの詳細><br>
 
 最適化アルゴリズムにはAdam、<br>
 
-モデル評価のための損失関数は平均二乗誤差(MSE)を設定しました。
+モデル評価のための損失関数は平均二乗誤差(MSE)を設定しました。<br>
 
 <br>
 
