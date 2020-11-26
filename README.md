@@ -35,9 +35,22 @@ web.DataReader([str(com) + '.JP'], 'stooq')
 以下のようなモデルを作成<br>
 
 ```
+model = Sequential()
+model.add(LSTM(50, return_sequences=True, input_shape=(x_train.shape[1], x_train.shape[2])))
+model.add(LSTM(50, return_sequences=False))
+model.add(Dense(120))
+model.add(Dense(1))
+model.compile(
+    optimizer='adam',
+    loss='mean_squared_error')
+model.summary()
 ```
+<図3 : モデル作成コード><br>
+<br>
+
 
 <img src="https://uploda3.ysklog.net/5de30f0fdd11acf5e317680dc9497aff.png" width="300px">
+<図4 : モデルの詳細>
 
 最適化アルゴリズムにはAdam、<br>
 
