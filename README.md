@@ -49,6 +49,7 @@ model.summary()
 
 <img src="https://uploda3.ysklog.net/5de30f0fdd11acf5e317680dc9497aff.png" width="300px">
 <図4 : モデルの詳細><br>
+<br>
 
 最適化アルゴリズムにはAdam、<br>
 
@@ -61,6 +62,7 @@ model.summary()
 予測結果と実際の値を比較
 
 <img src="https://uploda3.ysklog.net/46277b378094c5078e09816c12159464.png" width="500px">
+<図5 : 予測結果の変動と実際の変動の様子>
 
 ぱっと見高精度な予測ができているように見えます。<br>
 
