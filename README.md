@@ -58,7 +58,7 @@ model.summary()
 #### 結果
 
 予測結果と実際の値を比較<br>
-<img src="https://uploda3.ysklog.net/46277b378094c5078e09816c12159464.png" width="500px">
+<img src="https://uploda3.ysklog.net/46277b378094c5078e09816c12159464.png" width="500px"><br>
 <図5 : 予測結果の変動と実際の変動の様子><br>
 <br>
 
