@@ -16,6 +16,7 @@ web.DataReader([str(com) + '.JP'], 'stooq')
 ```
 
 上記のコードで銘柄コードに対する企業の過去5年間の終値、高値、安値、始値、出来高を取得できます。<br>
+<br>
 
 <img src="https://uploda1.ysklog.net/49edcf2db85d8fff471c2851a80ff6cb.png" width="300px">
 <図1 : ソニーの過去5年間の株価データ><br>
