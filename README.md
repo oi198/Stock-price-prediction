@@ -18,12 +18,12 @@ web.DataReader([str(com) + '.JP'], 'stooq')
 上記のコードで銘柄コードに対する企業の過去5年間の終値、高値、安値、始値、出来高を取得できます。<br>
 <br>
 
-<img src="https://uploda1.ysklog.net/49edcf2db85d8fff471c2851a80ff6cb.png" width="300px">
+<img src="https://user-images.githubusercontent.com/67414951/102814016-39ce0a00-440d-11eb-9cfd-07514ef0d583.PNG" width="300px">
 <図1 : ソニーの過去5年間の株価データ><br>
 <br>
 <br>
 
-<img src="https://uploda3.ysklog.net/37da57f1445fd0111fa92fd610c8953d.png" width="300px">
+<img src="https://user-images.githubusercontent.com/67414951/102814018-39ce0a00-440d-11eb-9df8-f2bb466c5d18.PNG" width="300px">
 <図2 : ソニーの過去5年間の終値の変動><br>
 
 
@@ -49,7 +49,7 @@ model.summary()
 ```
 <図3 : モデル作成コード><br>
 
-<img src="https://uploda3.ysklog.net/5de30f0fdd11acf5e317680dc9497aff.png" width="300px">
+<img src="https://user-images.githubusercontent.com/67414951/102813956-1e62ff00-440d-11eb-9ff5-37843dd25575.PNG" width="300px">
 <図4 : モデルの詳細><br>
 <br>
 
@@ -60,7 +60,7 @@ model.summary()
 #### 結果
 
 予測結果と実際の値を比較<br>
-<img src="https://uploda3.ysklog.net/46277b378094c5078e09816c12159464.png" width="500px"><br>
+<img src="https://user-images.githubusercontent.com/67414951/102814013-389cdd00-440d-11eb-8b14-38b7f3f5bd40.PNG" width="500px"><br>
 <図5 : 予測結果の変動と実際の変動の様子><br>
 <br>
 
